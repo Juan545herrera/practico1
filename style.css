@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+body {
+    box-sizing: border-box;    
+    background : linear-gradient(to bottom right, blue, cyan);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding: 20px;
+}
+p {
+    font-size: 5rem;
+    color: blue;
+}
+#lista {
+    font-size: 1.5rem;
+    font-stretch: expanded;
+    font-weight: bolder;
+}
+#conteo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+#candidato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 0 15px;
+    padding: 5px;
+    text-align: center;
+    width: 12rem;
+    height: 12rem;
+    background-color: azure;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 4rem;
+    height:2.5rem;
+    margin: 2px;
+    background-color: cornflowerblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
